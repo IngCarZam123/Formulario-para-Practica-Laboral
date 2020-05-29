@@ -1,0 +1,91 @@
+
+.dividido {
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+
+
+}
+
+
+.izquierda {
+  left: 0;
+  width: 20%;
+  background-color: white;
+  border-style: solid;
+  border-right-color: black;
+  border-width: 2px;
+
+}
+
+
+.derecha {
+  right: 0;
+  width: 80%;
+  background-color: white;
+  border-style: solid;
+  border-left-color: black;
+  border-width: 2px;
+  top: 0;
+    
+}
+
+
+@media only screen and (max-width: 900px) {
+    li {
+        font-size: 0.7em;
+        padding: 0;
+    }
+}
+
+.descripcion {
+  background: #D3D3D3;
+  width: 150px;
+  text-align: center;
+}
+
+input {
+    width: 140px;
+}
+
+.grid-wrapper {
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: 1fr;
+}
+
+button {
+    background-color: #228B22;
+    margin-left: 100px;
+    width: 100px;
+}
+
+.planilla {
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    list-style: none;
+    font-size: 140%;
+
+}
+
+li {
+    padding: 0;
+    margin: 0;
+    border-style: solid;
+    background-color: gray;
+    column-width: 140px;
+}
+
+p {
+    padding: 0px;
+    border-style: solid;
+    background-color: white;
+    width: 90%;
+    align-content: center;
+} 
+
